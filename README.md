@@ -2,7 +2,7 @@
 
 ## 📋 Descrição do Projeto
 
-Este projeto tem como objetivo centralizar e organizar o registro das ocorrências atendidas diariamente pela Guarda Civil Municipal. A plataforma web permitirá acompanhar os principais tipos de delitos e suas localizações, fornecendo dados estratégicos para otimizar o patrulhamento e os recursos disponíveis.
+Este projeto tem como objetivo centralizar e organizar o registro das ocorrências atendidas. A plataforma web permitirá acompanhar os principais tipos de delitos e suas localizações, fornecendo dados estratégicos para otimizar o patrulhamento e os recursos disponíveis.
 
 ## 🎯 Objetivos
 
