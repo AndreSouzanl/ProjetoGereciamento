@@ -5,7 +5,7 @@ import OcorrenciasPage from "@/components/OcorrenciasPage/OcorrenciasPage";
 
 export default function ListaOcorrencias(){
   return(
-    <div>
+    <div >
       <Header />
        <OcorrenciasPage />
       

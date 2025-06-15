@@ -11,13 +11,14 @@ export default function Header() {
           {/* Link alinhado à direita */}
         
         </div>
-        <div>
+        <div className="flex space-x-4">
           <Link
           href="/"
           className="bg-zinc-700 text-white px-4 py-2 rounded hover:bg-zinc-500 transition"
         >
           ← Sair
         </Link>
+        
         </div>
     </header>
   );

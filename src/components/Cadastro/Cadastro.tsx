@@ -35,6 +35,10 @@ export default function Cadastro() {
     localStorage.clear();  // Limpa todo o localStorage
     alert("localStorage limpo!");
   };
+
+  const listaOcorrencias = () => {
+    router.push("/lista");
+  }
   
   return (
     <div className="flex items-center justify-center bg-zinc-900">
@@ -105,9 +109,14 @@ export default function Cadastro() {
         >
           localStorage
         </button>
+        <button
+          onClick={listaOcorrencias}
+          className="w-full bg-zinc-700 hover:bg-blue-500 text-2xl text-white py-2 rounded mt-4" >
+          Lista de Ocorrências
+          </button>
       </form>
     </div>
   );
 }
-// fazer o botão de cadastrar funcionar
-// e o cadastro aparecer em outra pagina com mapa
+// acertar as duplicidades na lista de ocorrências
+//refatorações em geral 
